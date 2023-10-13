@@ -1,0 +1,48 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: #124d5c;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D6E4E5;
+    text-align: center;
+}
+
+header {
+    background-color: #D6E4E5;
+    color: #295f6b;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+main {
+    margin: 20px;
+    background-color: #D6E4E5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #18404a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.download-button:hover {
+    background-color: #18404a;
+}
